@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Fira Sans", sans-serif;
+}
 .topnav {
   width: 70%;
   height: 100px;
@@ -13,14 +18,14 @@ input {
   height: 45px;
   border-radius: 40px;
   color: rgb(67, 93, 97);
-  padding: 10px 10px;
+
 }
 
 .messages {
   width: 30px;
   height: 30px;
-  margin: 0px -427px;
-  padding: 10px 10px;
+  margin: 0px -165px;
+
 }
 
 .notification {
@@ -29,8 +34,13 @@ input {
 }
 
 .acountpicture {
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
+  margin: 0px -286px 0px 0px;
+}
+.acountname {
+  color:rgb(67, 93, 97);
+  margin: 0px 82px;
 }
 
 nav {
