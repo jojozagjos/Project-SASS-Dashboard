@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-    <div class="container">
+
+    <div id="loading-screen">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="container">
 
         <nav>
             <img class="logo" src="images/Designer-removebg-preview.png" alt="home">
@@ -46,5 +51,13 @@
         </div>
 
     </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            document.getElementById('loading-screen').style.display = 'none';
+            document.getElementById('container').style.display = 'block';
+        });
+    </script>
+
 </body>
 </html>
