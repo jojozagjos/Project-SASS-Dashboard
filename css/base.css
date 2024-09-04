@@ -1,1 +1,6 @@
-/*# sourceMappingURL=base.css.map */
+.accountInfo {
+  width: 80%;
+  height: 100px;
+  background: lightgray;
+  display: flex;
+}/*# sourceMappingURL=base.css.map */
