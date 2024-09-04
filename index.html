@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/loading.css">
+    <title>Loading Screen</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img class="logo">
-        <div clas="shark"></div>
+    <div id="loading-screen">
+        <div class="spinner"></div>
     </div>
+
+    <div id="main-content">
+        <h1>Welcome to Our Aquarium!</h1>
+        <p>Explore our exhibits and learn about marine life.</p>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            document.getElementById('loading-screen').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+        });
+    </script>
 </body>
 </html>
