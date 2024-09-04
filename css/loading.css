@@ -16,6 +16,12 @@ html, body {
 }
 
 .spinner {
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -45px;
+
     border: 8px solid #f3f3f3;
     border-top: 8px solid #3498db;
     border-radius: 50%;
@@ -30,7 +36,7 @@ html, body {
 }
 
 body  {
-    background-image: url("../images/sea-surface-aerial-top-view_114160-2246.avif");
+    background-image: url("../images/aerial-top-down-view-of-blue-azure-turquoise-sea-water-texture-video.jpg");
   background-size:cover;
         -webkit-animation: slidein 100s;
         animation: slidein 100s;
@@ -54,21 +60,4 @@ to {background-position: -100px 0px;background-size:2750px;}
 from {background-position: top;background-size:3000px; }
 to {background-position: -100px 0px;background-size:2750px;}
 
-}
-
-/* Ripple effect styling */
-.ripple {
-    position: absolute;
-    border-radius: 50%;
-    background: rgba(0, 0, 255, 0.3);
-    /* pointer-events: none; */
-    transform: scale(0);
-    animation: ripple-animation 0.6s linear;
-}
-
-@keyframes ripple-animation {
-    to {
-        transform: scale(4);
-        opacity: 0;
-    }
 }
