@@ -1,6 +1,13 @@
-.accountInfo {
+.acountinfo {
   width: 80%;
   height: 100px;
-  background: lightgray;
+  background-color: rgb(255, 188, 65);
   display: flex;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  border-radius: 40px;
+  color: rgb(67, 93, 97);
 }/*# sourceMappingURL=base.css.map */
