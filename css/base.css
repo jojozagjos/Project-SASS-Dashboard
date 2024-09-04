@@ -1,8 +1,9 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family:"Fira Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
+
 .topnav {
   width: 70%;
   height: 100px;
@@ -18,19 +19,18 @@ input {
   height: 45px;
   border-radius: 40px;
   color: rgb(67, 93, 97);
-
 }
 
 .messages {
   width: 30px;
   height: 30px;
   margin: 0px -165px;
-
 }
 
 .notification {
   width: 30px;
   height: 30px;
+  margin: 0px 0px 0px 5px;
 }
 
 .acountpicture {
@@ -38,12 +38,17 @@ input {
   height: 70px;
   margin: 0px -286px 0px 0px;
 }
+
 .acountname {
-  color:rgb(67, 93, 97);
+  color: rgb(67, 93, 97);
   margin: 0px 82px;
 }
 
 nav {
   width: 30%;
   float: left;
+}
+
+.container {
+  background-color: rgb(187, 215, 224);
 }/*# sourceMappingURL=base.css.map */
