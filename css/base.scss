@@ -15,7 +15,9 @@ input {
 .messages {
     width: 40px;
     height: 40px;
+    padding: 5px 5px;
     border:2px vars.$font-color solid;
+    border-radius: 2px;
 }
 .notification {
     width: 40px;
