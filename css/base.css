@@ -10,4 +10,14 @@ input {
   height: 40px;
   border-radius: 40px;
   color: rgb(67, 93, 97);
+}
+
+.messages {
+  width: 40px;
+  height: 40px;
+}
+
+.notification {
+  width: 40px;
+  height: 40px;
 }/*# sourceMappingURL=base.css.map */
