@@ -15,11 +15,21 @@
 
     <script>
         // (in milliseconds)
-        const waitTime = 5000; // 10 seconds
+        const waitTime = 2000; // 5 seconds
+
+        document.addEventListener("DOMContentLoaded", function() {
+        
+        const params = new URLSearchParams(window.location.search);
+        const destination = params.get('destination');
 
         setTimeout(() => {
-            window.location.href = "homepage.html";
-        }, waitTime);
+            if (destination) {
+                window.location.href = destination;
+            } else {
+                window.location.href = 'homepage.html';
+            }
+            }, waitTime);
+            });
     </script>
 </body>
 </html>
