@@ -97,7 +97,7 @@ a:hover {
 }
 .hero {
     width:1000px;
-    height:400px;
+    height:320px;
     position: relative;
     top: 132px;
     left: 438px;
@@ -135,7 +135,7 @@ a:hover {
     transition: .25s;
 }
 .hero a:hover {
-    color:rgb(33, 47, 50);
+    color:vars.$dark-font;
 }
 .joinnowbutton {
     background-color: black;
@@ -149,7 +149,7 @@ a:hover {
 }
 .benefits {
     position:absolute;
-    top: 448px;
+    top: 375px;
     left: -35px;
 
 }
@@ -163,12 +163,14 @@ a:hover {
     color: vars.$font-color;
 }
 .carousel h1 {
-    position:absolute;
-    top:10px;
-    left: 10px;
+    position: absolute;
+    top: 600px;
+    left: 460px;
+    color:vars.$dark-font;
 }
 .selectednav {
     color:white;
+    cursor:none ;
 }
 
 
