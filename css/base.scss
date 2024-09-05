@@ -98,7 +98,7 @@ a:hover {
 .hero {
     width:1000px;
     height:320px;
-    position: relative;
+    position: absolute;
     top: 132px;
     left: 438px;
     background-color: vars.$primary;
@@ -172,7 +172,11 @@ a:hover {
     color:white;
     cursor:none ;
 }
-
+.arrowleft-arrow {
+    position: absolute;
+    right: 401px;
+    top: 600px;
+}
 
 
 

@@ -104,7 +104,7 @@ a:hover {
 .hero {
   width: 1000px;
   height: 320px;
-  position: relative;
+  position: absolute;
   top: 132px;
   left: 438px;
   background-color: rgb(187, 215, 224);
@@ -185,6 +185,12 @@ a:hover {
 .selectednav {
   color: white;
   cursor: none;
+}
+
+.arrowleft-arrow {
+  position: absolute;
+  right: 401px;
+  top: 600px;
 }
 
 @keyframes fadeInAll {
