@@ -32,11 +32,6 @@ html, body {
     100% { transform: rotateZ(-360deg); }
 }
 
-@keyframes spin {
-    0% { opacity: 1; background-image: url("../images/TopDownOcean.jpg")}
-    100% { opacity: 0; background-image: none}
-}
-
 body  {
     background-image: url("../images/TopDownOcean.jpg");
   background-size:cover;
