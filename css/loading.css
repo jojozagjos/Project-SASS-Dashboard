@@ -4,17 +4,10 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-.
 
-.logo {
-    height: 400px;
-    width: 400px;
-
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
+#container {
+    display: flex;
+    flex-direction: column;
 }
 
 .spinner  {
