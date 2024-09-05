@@ -4,22 +4,24 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
+.
+
 .logo {
     height: 400px;
     width: 400px;
 
-    position: fixed;
+    position: absolute;
     top: 30%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
 }
 
-.spinner {
+.spinner  {
     position: fixed;
-    top: 65%;
+    top: 100%;
     left: 50%;
-    margin-top: -100px;
+    margin-top: -500px;
     margin-left: -45px;
 
     border: 8px solid #f3f3f3;
