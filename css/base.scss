@@ -35,7 +35,6 @@ input {
     width: 30px;
     height: 30px;
 
-
 }
 .acountpicture {
     width: 70px;
@@ -102,7 +101,7 @@ a:hover {
     height:50px;
 }
 .hero {
-    width:50%;
+    width:40%;
     height:320px;
     position: absolute;
     top: 132px;
@@ -169,7 +168,12 @@ a:hover {
     margin: 0px 16px;
     color: vars.$font-color;
 }
-
+.carousel h1 {
+    position: absolute;
+    top: 600px;
+    left: 460px;
+    color:vars.$dark-font;
+}
 .selectednav {
     color:white;
     cursor:none ;
@@ -182,11 +186,6 @@ a:hover {
 .carousel {
     display: flex;
     align-items: center;
-    width: 75%;
-    position:absolute;
-    top:60%;
-    left:25%;
-    
 }
   
 .carousel-items {
@@ -196,8 +195,6 @@ a:hover {
     background-color: orange;
     width: 70%;
     height: 20%;
-
-
 }
   
 .item {
