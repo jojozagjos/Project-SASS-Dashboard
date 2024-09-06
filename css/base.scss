@@ -97,10 +97,7 @@ a:hover {
     border-radius: 30px;
     font-size: 37px;
 }
-.item img {
-    width:50px;
-    height:50px;
-}
+
 .main-content {
     width: 80%;
     height: 89vh;
@@ -200,19 +197,20 @@ a:hover {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    background-color: orange;
+    background-color: vars.$accent;
 
 }
   
 .item {
-    min-width: 200px;
-    margin: 0 10px;
+    min-width: 380px;
+    margin: 0px 10px;
     flex-flow: nowrap column;
 }
 .item img {
-    width:300px;
-    height:200px;
+    width: 350px;
+    height: 235px;
     border-radius: 19px;
+    padding: 10px 5px;
 }
 .arrow {
     background: none;
