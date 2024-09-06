@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  animation: fadeInAll 0.3s ease-out;
+}
+
+.topnav {
+  width: 80%;
+  height: 100px;
+  background-color: rgb(187, 215, 224);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 1000px;
+  height: 45px;
+  border-radius: 40px;
+  color: rgb(67, 93, 97);
+  font-size: 24px;
+  padding: 0px 0px 0px 11px;
+  margin: 0 0 0 50px;
+}
+
+.messages {
+  width: 30px;
+  height: 30px;
+}
+
+.notification {
+  width: 30px;
+  height: 30px;
+}
+
+.acountpicture {
+  width: 70px;
+  height: 70px;
+}
+
+.acountname {
+  color: rgb(67, 93, 97);
+  margin: 0px 51px 0px -31px;
+}
+
+nav {
+  width: 20%;
+  height: 100vh;
+  float: left;
+  background-color: rgb(211, 224, 228);
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  overflow: hidden;
+}
+nav img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 7px;
+}
+
+.container {
+  background-color: rgb(187, 215, 224);
+  height: 100vh;
+}
+
+.logo {
+  height: 175px;
+  width: 175px;
+  left: 92px;
+  top: 0;
+}
+
+ul {
+  display: inline;
+  justify-content: space-around;
+}
+
+li {
+  padding: 48px 50px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(67, 93, 97);
+  padding: 10px 16px;
+  font-weight: 400;
+  transition: 0.25s;
+}
+
+a:hover {
+  color: white;
+  font-size: 31px;
+  background-color: rgb(187, 215, 224);
+  padding: 10px 70px;
+  border-radius: 30px;
+  font-size: 37px;
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+}
+
+.main-content {
+  width: 80%;
+  height: 100vh;
+  background-color: rgb(187, 215, 224);
+  overflow: hidden;
+}
+
+.hero {
+  width: 67%;
+  height: 320px;
+  position: relative;
+  left: 43px;
+  background-color: rgb(187, 215, 224);
+  border-radius: 47px;
+  text-align: start;
+  background-image: url("../images/aquaHero.jpg");
+  background-size: cover;
+  background-position: 0px -221px;
+  margin-bottom: 50px;
+}
+.hero p {
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  top: 33px;
+  left: 35px;
+  color: white;
+}
+.hero h1 {
+  font-size: 54px;
+  font-weight: 600;
+  position: relative;
+  top: 96px;
+  left: 35px;
+  color: white;
+}
+.hero a {
+  font-size: 24px;
+  background-color: white;
+  position: absolute;
+  bottom: 58px;
+  left: 35px;
+  padding: 14px 97px 14px 42px;
+  border-radius: 56px;
+  transition: 0.25s;
+}
+.hero a:hover {
+  color: rgb(33, 47, 50);
+}
+
+.joinnowbutton {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 65px;
+  left: 213px;
+  font-size: 23px;
+  padding: 7px 17px;
+  border-radius: 56px;
+}
+
+.benefits li {
+  background-color: rgb(211, 224, 228);
+  border-radius: 56px;
+  padding: 20px 10px;
+  display: inline;
+  font-size: 19px;
+  margin: 0px 16px;
+  color: rgb(67, 93, 97);
+}
+
+.selectednav {
+  color: white;
+  cursor: none;
+  background-color: rgb(187, 215, 224);
+  padding: 10px 70px;
+  border-radius: 30px;
+  font-size: 37px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-items {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  background-color: orange;
+}
+
+.item {
+  min-width: 200px;
+  margin: 0 10px;
+  flex-flow: nowrap column;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 19px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.see-all {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@keyframes fadeInAll {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=base.css.map */
