@@ -1,16 +1,16 @@
-// @use "_vars";
-// @use "_navs";
+// // @use "_vars";
+// // @use "_navs";
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: vars.$font;
-  }
+// * {
+//     margin: 0;
+//     box-sizing: border-box;
+//     font-family: vars.$font;
+//   }
 
-.topnav {
-    @include navs.topbar;   
-}
-nav {
-    @include navs.sidebar;
-}
+// .topnav {
+//     @include navs.topbar;   
+// }
+// nav {
+//     @include navs.sidebar;
+// }
 
