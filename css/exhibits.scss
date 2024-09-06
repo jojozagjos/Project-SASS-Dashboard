@@ -1,21 +1,16 @@
-<<<<<<< HEAD
 @use "_vars";
 @use "_navs";
-=======
-// // @use "_vars";
-// // @use "_navs";
->>>>>>> 173529b299af39dc14c442e1cb68c0a91f262cf2
 
-// * {
-//     margin: 0;
-//     box-sizing: border-box;
-//     font-family: vars.$font;
-//   }
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vars.$font;
+  }
 
-// .topnav {
-//     @include navs.topbar;   
-// }
-// nav {
-//     @include navs.sidebar;
-// }
+.topnav {
+    @include navs.topbar;   
+}
+nav {
+    @include navs.sidebar;
+}
 

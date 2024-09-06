@@ -1,1 +1,85 @@
-/*# sourceMappingURL=exhibits.css.map */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.topnav {
+  width: 80%;
+  height: 100px;
+  background-color: rgb(187, 215, 224);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topnav input {
+  width: 1000px;
+  height: 45px;
+  border-radius: 40px;
+  color: rgb(67, 93, 97);
+  font-size: 24px;
+  padding: 0px 0px 0px 11px;
+  margin: 0 0 0 50px;
+}
+.topnav .messages {
+  width: 30px;
+  height: 30px;
+}
+.topnav .notification {
+  width: 30px;
+  height: 30px;
+}
+.topnav .acountpicture {
+  width: 70px;
+  height: 70px;
+}
+.topnav .acountname {
+  color: rgb(67, 93, 97);
+  margin: 0px 51px 0px -31px;
+}
+
+nav {
+  width: 20%;
+  height: 100vh;
+  float: left;
+  background-color: rgb(211, 224, 228);
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  overflow: hidden;
+}
+nav img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 7px;
+}
+nav img.logo {
+  height: 175px;
+  width: 175px;
+  left: 92px;
+  top: 0;
+}
+nav span ul {
+  display: inline;
+  justify-content: space-around;
+}
+nav span ul li {
+  padding: 20px 50px;
+}
+nav span ul li a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(67, 93, 97);
+  padding: 10px 16px;
+  font-weight: 400;
+  transition: 0.25s;
+}
+nav span ul li a:hover {
+  color: white;
+  font-size: 31px;
+  background-color: rgb(187, 215, 224);
+  padding: 10px 70px;
+  border-radius: 30px;
+  font-size: 37px;
+}/*# sourceMappingURL=exhibits.css.map */
