@@ -12,7 +12,6 @@
     height:100px;
     background-color:vars.$primary;
     display: flex;
-    float: right;
     justify-content: space-between;
     align-items: center;
 }
@@ -55,18 +54,20 @@ nav {
     justify-content: flex-start;
     flex-flow: column nowrap;
     overflow: hidden;
+
+    img {
+    width:40px;
+    height:40px;
+    position: relative;
+    top: 7px;
+}
 }
 
 .container {
     background-color: vars.$primary;
     height: 100vh;
 }
-nav img {
-    width:40px;
-    height:40px;
-    position: relative;
-    top: 7px;
-}
+
 .logo {
     height:175px;
     width:175px;
@@ -78,10 +79,10 @@ ul {
     justify-content: space-around;
 }
 li {
-    padding: 20px 50px;
+    padding: 48px 50px;
 }
 a {
-    font-size:36px;
+    font-size:30px;
     text-decoration: none;
     color:vars.$font-color;
     padding: 10px 16px;
@@ -90,7 +91,7 @@ a {
 }
 a:hover {
     color:white;
-    font-size:37px;
+    font-size:31px;
     background-color: vars.$primary;
     padding: 10px 70px;
     border-radius: 30px;
@@ -100,31 +101,27 @@ a:hover {
     width:50px;
     height:50px;
 }
-.main-container {
+.main-content {
     width: 80%;
     height: 100vh;
-    float: right;
     background-color:vars.$primary;
-    display:flex;
-    justify-content: flex-start;
-    flex-flow: column nowrap;
     overflow: hidden;
 }
 .hero {
-    width:40%;
+    width:100%;
     height:320px;
-    position: absolute;
+    position: relative;
     top: 132px;
-    left: 50vh;
+    
     background-color: vars.$primary;
     border-radius: 47px;
     text-align: start;
     background-image: url("../images/aquaHero.jpg");
     background-size: cover;
     background-position: 0px -221px;
-    margin-bottom: 20px
-}
-.hero p {
+    margin-bottom: 20px;
+
+    p {
     font-size:24px;
     font-weight: 400;
     position: absolute;
@@ -132,7 +129,8 @@ a:hover {
     left: 35px;
     color:white;
 }
-.hero h1 {
+
+h1 {
     font-size: 54px;
     font-weight: 600;
     position: absolute;
@@ -140,7 +138,8 @@ a:hover {
     left: 35px;
     color:white;
 }
-.hero a {
+
+a {
     font-size: 24px;
     background-color: white;
     position: absolute;
@@ -150,9 +149,13 @@ a:hover {
     border-radius: 56px;
     transition: .25s;
 }
-.hero a:hover {
+a:hover {
     color:vars.$dark-font;
 }
+}
+
+
+
 .joinnowbutton {
     background-color: black;
     color: white;
@@ -178,12 +181,8 @@ a:hover {
     margin: 0px 16px;
     color: vars.$font-color;
 }
-.carousel h1 {
-    position: absolute;
-    top: 600px;
-    left: 460px;
-    color:vars.$dark-font;
-}
+
+
 .selectednav {
     color:white;
     cursor:none ;
@@ -196,6 +195,10 @@ a:hover {
 .carousel {
     display: flex;
     align-items: center;
+    width: 100%;
+    position: relative;
+    bottom:0;
+    left:0;
 }
   
 .carousel-items {
@@ -203,8 +206,7 @@ a:hover {
     overflow-x: auto;
     scroll-behavior: smooth;
     background-color: orange;
-    width: 70%;
-    height: 20%;
+
 }
   
 .item {
