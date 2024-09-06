@@ -107,6 +107,17 @@ a:hover {
   height: 50px;
 }
 
+.main-container {
+  width: 80%;
+  height: 100vh;
+  float: right;
+  background-color: rgb(187, 215, 224);
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  overflow: hidden;
+}
+
 .hero {
   width: 40%;
   height: 320px;
