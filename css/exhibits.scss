@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: vars.$font;
+    overflow: hidden;
   }
 
 .topnav {
@@ -14,3 +15,74 @@ nav {
     @include navs.sidebar;
 }
 
+.main-content {
+    margin: 0;
+    overflow: hidden;
+    background: #4eb8ee;
+}
+
+.aquarium {
+    position: relative;
+    width: 100vw;
+    height: 92vh;
+    overflow: hidden;
+}
+
+.fish {
+    transform: translateX(-100%); 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation: swim 10s linear infinite;
+
+    &#fish1 { top: 1%; animation-duration: 8s; }
+    &#fish2 { top: 50%; animation-duration: 12s; }
+    &#fish3 { top: 80%; animation-duration: 15s; }
+    &#fish4 { top: 35%; animation-duration: 10s; }
+    &#fish5 { top: 50%; animation-duration: 14s; }
+}
+
+.bubble {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    animation: rise 5s linear infinite;
+
+    &#bubble1 { left: 20%; animation-duration: 4s; }
+    &#bubble2 { left: 50%; animation-duration: 6s; }
+    &#bubble3 { left: 80%; animation-duration: 5s; }
+}
+
+.seaweed {
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 100px;
+    background: green;
+    border-radius: 10px;
+    animation: sway 3s ease-in-out infinite;
+    transform-origin: bottom center;
+
+    &#seaweed1 { left: 40%; }
+    &#seaweed2 { left: 70%; }
+    &#seaweed3 { left: 10%; }
+    &#seaweed4 { left: 30; }
+    &#seaweed5 { left: 60%; }
+}
+
+@keyframes swim {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100vw); }
+}
+
+@keyframes rise {
+    0% { bottom: 0; opacity: 1; }
+    100% { bottom: 100%; opacity: 0; }
+}
+
+@keyframes sway {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(-10deg); }
+}
