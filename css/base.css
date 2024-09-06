@@ -106,7 +106,7 @@ a:hover {
 }
 
 .hero {
-  width: 40%;
+  width: 50%;
   height: 320px;
   position: absolute;
   top: 132px;
@@ -180,13 +180,6 @@ a:hover {
   color: rgb(67, 93, 97);
 }
 
-.carousel h1 {
-  position: absolute;
-  top: 600px;
-  left: 460px;
-  color: rgb(33, 47, 50);
-}
-
 .selectednav {
   color: white;
   cursor: none;
@@ -199,12 +192,17 @@ a:hover {
 .carousel {
   display: flex;
   align-items: center;
+  width: 75%;
+  position: absolute;
+  top: 60%;
+  left: 25%;
 }
 
 .carousel-items {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
+  background-color: orange;
 }
 
 .item {
