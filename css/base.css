@@ -113,30 +113,30 @@ a:hover {
 }
 
 .hero {
-  width: 100%;
+  width: 67%;
   height: 320px;
   position: relative;
-  top: 132px;
+  left: 43px;
   background-color: rgb(187, 215, 224);
   border-radius: 47px;
   text-align: start;
   background-image: url("../images/aquaHero.jpg");
   background-size: cover;
   background-position: 0px -221px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .hero p {
   font-size: 24px;
   font-weight: 400;
-  position: absolute;
+  position: relative;
   top: 33px;
   left: 35px;
-  color: black;
+  color: white;
 }
 .hero h1 {
   font-size: 54px;
   font-weight: 600;
-  position: absolute;
+  position: relative;
   top: 96px;
   left: 35px;
   color: white;
@@ -164,12 +164,6 @@ a:hover {
   font-size: 23px;
   padding: 7px 17px;
   border-radius: 56px;
-}
-
-.benefits {
-  position: absolute;
-  top: 375px;
-  left: -35px;
 }
 
 .benefits li {
