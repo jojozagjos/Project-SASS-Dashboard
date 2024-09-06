@@ -110,17 +110,43 @@ a:hover {
     left:0;
 
     h1 {
-        
+        display: inline;
+        position: relative;
+        bottom: 44px;
+        left:30px;
     }
+
 }
-  
+.arrowleft-arrow  {
+    position: relative;
+    bottom: 38px;
+    left: 862px;
+    font-size: 22px;
+    background-color: vars.$accent;
+    border-radius: 70px;
+    padding: 2px 12px;
+}
+.arrowright-arrow  {
+    position: relative;
+    bottom: 38px;
+    left: 875px;
+    font-size: 22px;
+    background-color: vars.$accent;
+    border-radius: 70px;
+    padding: 2px 12px;
+}
+
 .carousel-items {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
     background-color: vars.$accent;
-
+    position: relative;
+    top: 133px;
+    right: 238px;
+    border-radius: 10px;
 }
+
   
 .item {
     max-width: 380px;
