@@ -94,6 +94,10 @@ a {
 a:hover {
   color: white;
   font-size: 37px;
+  background-color: rgb(187, 215, 224);
+  padding: 10px 70px;
+  border-radius: 30px;
+  font-size: 37px;
 }
 
 .item img {
@@ -102,17 +106,18 @@ a:hover {
 }
 
 .hero {
-  width: 1000px;
+  width: 40%;
   height: 320px;
   position: absolute;
   top: 132px;
-  left: 438px;
+  left: 50vh;
   background-color: rgb(187, 215, 224);
   border-radius: 47px;
   text-align: start;
   background-image: url("../images/aquaHero.jpg");
   background-size: cover;
   background-position: 0px -221px;
+  margin-bottom: 20px;
 }
 
 .hero p {
@@ -171,7 +176,7 @@ a:hover {
   padding: 20px 10px;
   display: inline;
   font-size: 19px;
-  margin: 0px 21px;
+  margin: 0px 16px;
   color: rgb(67, 93, 97);
 }
 
@@ -185,12 +190,41 @@ a:hover {
 .selectednav {
   color: white;
   cursor: none;
+  background-color: rgb(187, 215, 224);
+  padding: 10px 70px;
+  border-radius: 30px;
+  font-size: 37px;
 }
 
-.arrowleft-arrow {
-  position: absolute;
-  right: 401px;
-  top: 600px;
+.carousel {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-items {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.item {
+  min-width: 200px;
+  margin: 0 10px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.see-all {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 @keyframes fadeInAll {
