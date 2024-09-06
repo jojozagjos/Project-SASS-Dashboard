@@ -55,7 +55,9 @@ nav {
     display:flex;
     justify-content: flex-start;
     flex-flow: column nowrap;
+    overflow: hidden;
 }
+
 .container {
     background-color: vars.$primary;
     height: 100vh;
@@ -74,7 +76,7 @@ nav img {
 }
 ul {
     display: inline;
-
+    justify-content: space-around;
 }
 li {
     padding: 20px 50px;
@@ -192,20 +194,29 @@ a:hover {
     overflow-x: auto;
     scroll-behavior: smooth;
     background-color: orange;
+    width: 70%;
+    height: 20%;
+
+
 }
   
 .item {
     min-width: 200px;
     margin: 0 10px;
+    flex-flow: nowrap column;
 }
-  
+.item img {
+    width:300px;
+    height:200px;
+    border-radius: 19px;
+}
 .arrow {
     background: none;
     border: none;
     font-size: 2rem;
     cursor: pointer;
 }
-  
+
 .see-all {
     display: block;
     margin: 20px auto;
