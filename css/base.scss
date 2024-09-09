@@ -18,7 +18,7 @@ nav {
 
 .main-content {
     width: 80%;
-    height: 89vh;
+    height: 89.5vh;
     background-color:vars.$primary;
     overflow: hidden;
 }
@@ -62,6 +62,8 @@ a {
     padding: 14px 97px 14px 42px;
     border-radius: 56px;
     transition: .25s;
+    color: vars.$font-color;
+    text-decoration: none;
 }
 a:hover {
     color:vars.$dark-font;
@@ -120,20 +122,32 @@ a:hover {
 .arrowleft-arrow  {
     position: relative;
     bottom: 38px;
-    left: 862px;
+    left: 838px;
     font-size: 22px;
     background-color: vars.$accent;
     border-radius: 70px;
     padding: 2px 12px;
+    transition:.25s;
+    cursor: pointer;
+}
+.arrowleft-arrow:hover {
+    font-size:23px;
+    background-color: vars.$highlight-accent;
 }
 .arrowright-arrow  {
     position: relative;
     bottom: 38px;
-    left: 875px;
+    left: 844px;
     font-size: 22px;
     background-color: vars.$accent;
     border-radius: 70px;
     padding: 2px 12px;
+    transition:.25s;
+    cursor: pointer;
+}
+.arrowright-arrow:hover {
+    font-size:23px;
+    background-color: vars.$highlight-accent;
 }
 
 .carousel-items {
@@ -143,7 +157,7 @@ a:hover {
     background-color: vars.$accent;
     position: relative;
     top: 133px;
-    right: 238px;
+    right: 271px;
     border-radius: 10px;
 }
 
@@ -172,8 +186,28 @@ a:hover {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
+    position: relative;
+    top: 298px;
+    right: 355px;
+    border-radius: 28px;
+    border: 2px black solid;
+    background-color: vars.$accent;
+    transition: .25s;
 }
-  
+.see-all:hover {
+    font-size:17px;
+    background-color: vars.$highlight-accent;
+}
+.Events {
+    float: right;
+    background-color: orangered;
+    width: 20%;
+    height: 97%;
+    position: relative;
+    top: -663px;
+    right: 21px;
+    border-radius: 20px
+}
 
 
   

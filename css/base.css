@@ -87,7 +87,7 @@ nav span ul li a:hover {
 
 .main-content {
   width: 80%;
-  height: 89vh;
+  height: 89.5vh;
   background-color: rgb(187, 215, 224);
   overflow: hidden;
 }
@@ -129,6 +129,8 @@ nav span ul li a:hover {
   padding: 14px 97px 14px 42px;
   border-radius: 56px;
   transition: 0.25s;
+  color: rgb(67, 93, 97);
+  text-decoration: none;
 }
 .hero a:hover {
   color: rgb(33, 47, 50);
@@ -182,21 +184,35 @@ nav span ul li a:hover {
 .arrowleft-arrow {
   position: relative;
   bottom: 38px;
-  left: 862px;
+  left: 838px;
   font-size: 22px;
   background-color: rgb(211, 224, 228);
   border-radius: 70px;
   padding: 2px 12px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.arrowleft-arrow:hover {
+  font-size: 23px;
+  background-color: rgb(188, 199, 203);
 }
 
 .arrowright-arrow {
   position: relative;
   bottom: 38px;
-  left: 875px;
+  left: 844px;
   font-size: 22px;
   background-color: rgb(211, 224, 228);
   border-radius: 70px;
   padding: 2px 12px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.arrowright-arrow:hover {
+  font-size: 23px;
+  background-color: rgb(188, 199, 203);
 }
 
 .carousel-items {
@@ -206,7 +222,7 @@ nav span ul li a:hover {
   background-color: rgb(211, 224, 228);
   position: relative;
   top: 133px;
-  right: 238px;
+  right: 271px;
   border-radius: 10px;
 }
 
@@ -236,6 +252,29 @@ nav span ul li a:hover {
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
+  position: relative;
+  top: 298px;
+  right: 355px;
+  border-radius: 28px;
+  border: 2px black solid;
+  background-color: rgb(211, 224, 228);
+  transition: 0.25s;
+}
+
+.see-all:hover {
+  font-size: 17px;
+  background-color: rgb(188, 199, 203);
+}
+
+.Events {
+  float: right;
+  background-color: orangered;
+  width: 20%;
+  height: 97%;
+  position: relative;
+  top: -663px;
+  right: 21px;
+  border-radius: 20px;
 }
 
 @keyframes fadeInAll {
