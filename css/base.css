@@ -281,8 +281,9 @@ nav span ul li a:hover {
   flex-flow: nowrap column;
 }
 
-.Events h1 {
+.Event1 {
   color: rgb(67, 93, 97);
+  font-size: 46px;
 }
 
 .sidebaritems img {
