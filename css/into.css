@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.logo {
+    opacity: 0;
+    max-width: 100%;
+    height: 40%;
+    animation: fallin 3s ease-in-out, remove 0.2s 3s, unremove 0.5s 6s ease;
+}
+
+.shark  {
+    width: 650px;
+    height: 550px;
+    background-image: url("../images/SpriteSheet.png"); 
+    background-repeat: no-repeat;
+    background-size: 5000px;
+    position: absolute;
+    opacity: 0;
+    animation: animationkeyframes 2.0s steps(1);
+    animation-delay: 3s;
+}
+
+body  {
+    background-color: rgb(119, 189, 212);        
+}
+
+@keyframes fallin {
+    0% {
+        transform: translateY(-2000px);
+      }
+      60% {
+        opacity: 1;
+        transform: translateY(80px);
+      }
+      80% { transform: translateY(-10px); }
+      100% { transform: translateY(0); opacity: 1;}
+    }
+
+@keyframes remove {
+    0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+    }
+}
+
+@keyframes unremove {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animationkeyframes {
+    0% {
+        opacity: 1;
+        background-position: 30px 200px;
+    }
+    3% {
+        background-position: -1200px 200px;
+    }
+    6% {
+        background-position: -1730px 200px;
+    }
+    12% {
+        background-position: -2400px 200px;
+        width: 600px;
+    }
+    18% {
+        background-position: -3000px 200px;
+        width: 550px;
+    }
+    24% {
+        background-position: -3600px 200px;
+    }
+    30% {
+        background-position: -4160px 200px;
+        width: 650px;
+    }
+    36% {
+        background-position: 30px -500px;
+    }
+    42% {
+        background-position: -610px -500px;
+    }
+    54% {
+        background-position: -1250px -500px;
+    }
+    60% {
+        background-position: -1930px -400px;
+        height: 700px;
+        width: 830px;
+    }
+    66% {
+        background-position: -2750px -400px;
+        height: 500px;
+        width: 980px;
+    }
+    72% {
+        background-position: -3750px -380px;
+        height: 620px;
+        width: 980px;
+    }
+    78% {
+        background-position: 30px -1020px;
+        height: 610px;
+        width: 980px;
+    }
+    
+    84% {
+        background-position: 30px 100px;
+        width: 650px;
+        height: 550px;
+    }
+    90% {
+        background-position: -610px 100px;
+    }
+    100% {
+        background-position: -610px 100px;
+    }
+}

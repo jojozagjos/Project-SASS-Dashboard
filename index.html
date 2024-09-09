@@ -4,25 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loading Screen</title>
-    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/into.css">
 </head>
 <body>
 
     <div id="container">
-        <img class="logo" src="images/Designer-removebg-preview.png" alt="logo">
-        <div class="spinner"></div>
+        <img class="logo" src="images/MainLogo.png" alt="logo">
+        <div class="shark"></div>
     </div>
 
     <script>
         // (in milliseconds)
         
-        const waitTime = Math.floor(Math.random() * 2000) + 100;
-        console.log(waitTime);
-
+        const waitTime = 6400
         document.addEventListener("DOMContentLoaded", function() {
-        
-        const params = new URLSearchParams(window.location.search);
-        const destination = params.get('destination');
 
         setTimeout(() => {
             window.location.href = 'loading.html';
