@@ -200,13 +200,31 @@ a:hover {
 }
 .Events {
     float: right;
-    background-color: orangered;
+    background-color: vars.$accent;
     width: 20%;
     height: 97%;
     position: relative;
     top: -663px;
     right: 21px;
-    border-radius: 20px
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: nowrap column;
+}
+.Events h1 {
+    color:vars.$font-color;
+}
+.sidebaritems img {
+    width: 282px;
+    height: 182px;
+    border: 10px vars.$highlight-accent solid;
+    border-radius: 10px;
+}
+.sidebaritems h1 {
+    text-align: center;
+    font-weight: 400;
+    color:vars.$font-color;
 }
 
 
