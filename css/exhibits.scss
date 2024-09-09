@@ -18,7 +18,9 @@ nav {
 .main-content {
     margin: 0;
     overflow: hidden;
-    background: #4eb8ee;
+    background-image: url("../images/backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .aquarium {
@@ -42,6 +44,15 @@ nav {
     &#fish5 { top: 50%; animation-duration: 14s; }
 }
 
+.shark {
+    transform: translateX(-100%); 
+    position: absolute;
+    width: 2400px;
+    height: 1600px;
+    animation: swim 10s linear infinite;
+    &#fish6 { top: -30%; animation-duration: 60s; }
+}
+
 .bubble {
     position: absolute;
     width: 10px;
@@ -57,11 +68,9 @@ nav {
 
 .seaweed {
     position: absolute;
-    bottom: 0;
-    width: 20px;
-    height: 100px;
-    background: green;
-    border-radius: 10px;
+    bottom: 0px;
+    width:60px;
+    height: 150px;
     animation: sway 3s ease-in-out infinite;
     transform-origin: bottom center;
 

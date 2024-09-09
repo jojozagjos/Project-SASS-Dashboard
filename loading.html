@@ -9,7 +9,7 @@
 <body>
 
     <div id="container">
-        <img class="logo" src="images/Designer-removebg-preview.png" alt="logo">
+        <img class="logo" src="images/MainLogo.png" alt="logo">
         <div class="spinner"></div>
     </div>
 
@@ -25,7 +25,11 @@
         const destination = params.get('destination');
 
         setTimeout(() => {
-            window.location.href = 'loading.html';
+            if (destination) {
+                window.location.href = destination;
+            } else {
+                window.location.href = 'homepage.html';
+            }
             }, waitTime);
             });
     </script>
