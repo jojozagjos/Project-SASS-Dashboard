@@ -80,9 +80,8 @@ nav span ul li a:hover {
   color: white;
   font-size: 31px;
   background-color: rgb(187, 215, 224);
-  padding: 10px 70px;
+  padding: 10px 40px;
   border-radius: 30px;
-  font-size: 37px;
 }
 
 .main-content {
@@ -159,11 +158,19 @@ nav span ul li a:hover {
 
 .selectednav {
   color: white;
-  cursor: none;
   background-color: rgb(187, 215, 224);
-  padding: 10px 70px;
+  padding: 10px 40px;
   border-radius: 30px;
-  font-size: 37px;
+  font-size: 33px;
+}
+
+.selectednav:hover {
+  color: white;
+  cursor: default;
+  background-color: rgb(187, 215, 224);
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 33px;
 }
 
 .carousel {

@@ -67,6 +67,7 @@ a {
 }
 a:hover {
     color:vars.$dark-font;
+
 }
 }
 
@@ -96,13 +97,19 @@ a:hover {
 
 .selectednav {
     color:white;
-    cursor:none ;
     background-color: vars.$primary;
-    padding: 10px 70px;
+    padding: 10px 40px;
     border-radius: 30px;
-    font-size: 37px;
+    font-size: 33px;
 }
-
+.selectednav:hover {
+    color:white;
+    cursor:default ;
+    background-color: vars.$primary;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 33px;
+}
 .carousel {
     display: flex;
     align-items: center;
